@@ -18,7 +18,7 @@ def instalar_apache():
         run("sudo systemctl start httpd")
         run("sudo systemctl enable httpd")
     else:
-        print("Distro no soportada")
+        print("act_3")
         exit(1)
 
 def crear_pagina():
